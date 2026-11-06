@@ -166,8 +166,8 @@ Lab hôm nay chỉ **xem prediction**. Chuỗi dưới đây là vòng đời pr
 | Tác vụ                | Ground truth trông như thế nào? (đơn vị nhãn) | Lỗi hoặc chỗ khó quyết định bạn thấy trên ảnh/JSON | Annotator làm gì?                    | Reviewer xem gì?                                            |
 | --------------------- | --------------------------------------------- | -------------------------------------------------- | ------------------------------------ | ---------------------------------------------------------- |
 | Phân loại ảnh         | cab                                           |                                                    |                                                                                                    |
-| Phát hiện vật thể     | person                                        | Vật thể person bị gán thừa nhãn                    | Kiểm tra guideline, không thêm clas Kiểm tra tính hợp lệ của nhãn, kiểm tra bbox có khớp không ra  |
-| Instance segmentation | person, owen                                  | Hai vật thể person và owen có biên chồng nhau      | vẽ polygon cho từng vật thể          | Kiểm tra tính đúng đắn của                                  |
+| Phát hiện vật thể     | person                                        | Vật thể person bị gán thừa nhãn                    | Kiểm tra guideline, không thêm class  | Kiểm tra tính hợp lệ của nhãn, kiểm tra bbox có khớp không
+| Instance segmentation | person, owen                                  | Hai vật thể person và owen có biên chồng nhau      | vẽ polygon cho từng vật thể          | Kiểm tra tính đúng đắn của nhãn                                 |
 
 ## 5. An toàn dữ liệu
 
