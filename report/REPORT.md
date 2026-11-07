@@ -154,7 +154,7 @@ Chỉ dùng ảnh `sample_id = kitchen`. Chọn **một** record.
 4. Viết **một quy tắc vẽ biên mask** để người gán nhãn làm theo.
 		Mask phải vẽ theo đường biên của đối tượng, không vẽ lên vùng không thuộc đối tượng
 5. Trên ảnh `kitchen`, chỉ ra **một** chỗ biên mờ / hai vật chạm nhau / bị che. Bạn dùng guideline hay escalation? Vì sao?
-		Vật thể owen và person(score 0.43) có biên chạm nhau. Trường hợp này có thể dùng guideline ưu tiên vẽ vật ở phía trước, gần camera hơn đè lên trên vật phía sau
+		Vật thể owen và person(score 0.43) có biên chạm nhau. Trường hợp này có thể dùng guideline ưu tiên vẽ vật ở phía trước, gần camera hơn đè lên trên vật phía sau.
 ## 4. Vòng đời và kiểm tra chất lượng
 
 Lab hôm nay chỉ **xem prediction**. Chuỗi dưới đây là vòng đời production để bạn nối các khái niệm:
